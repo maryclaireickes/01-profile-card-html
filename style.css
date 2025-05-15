@@ -1,0 +1,43 @@
+/* Blank stylesheet */
+
+/* Set background color, center all text, and use Montserrat font */
+body {
+  background-color: lightblue;
+  text-align: center;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+/* Center headings */
+h1, h2 {
+  text-align: center;
+}
+
+/* Style main heading: size, color, and letter spacing */
+h1 {
+  font-size: 40px;
+  color: #072644; /* dark blue */
+  letter-spacing: 2px;
+}
+
+/* Style subheading: size, color, and italics */
+h2 {
+  font-size: 28px;
+  color: #353333; /* light grey */
+  font-style: italic;
+}
+
+/* Style paragraph: size and line spacing */
+p {
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Style the profile card container */
+.profile-card {
+  background: #fff;
+  padding: 32px;
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
