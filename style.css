@@ -41,3 +41,24 @@ p {
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
+
+/* Style the profile image to fit the card */
+.profile-card img,
+.profile-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  aspect-ratio: 1 / 1;
+}
+
+/* Remove bullet points and add spacing to the list */
+.profile-card ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 24px;
+}
+
+.profile-card li {
+  margin-bottom: 16px;
+}
