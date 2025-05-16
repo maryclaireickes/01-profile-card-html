@@ -50,6 +50,19 @@ p {
   object-fit: cover;
   border-radius: 50%;
   aspect-ratio: 1 / 1;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+/* Add blue background and fit the portfolio logo image */
+.profile-card img[alt="Portfolio"] {
+  background-color: #0a374f;
+  border-radius: 12px;
+  padding: 8px 16px;
+  width: 200px;
+  height: auto;
+  display: inline-block;
+  object-fit: contain;
 }
 
 /* Remove bullet points and add spacing to the list */
@@ -72,7 +85,7 @@ p {
   text-decoration: none;
   font-weight: 600;
   margin-top: 10px;
-  transition: background 0.2s;
+  transition: background-color 0.2s;
 }
 
 .linkedin-btn:hover {
