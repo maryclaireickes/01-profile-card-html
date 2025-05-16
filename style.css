@@ -96,3 +96,20 @@ p {
   vertical-align: middle;
   filter: invert(1);
 }
+
+/* Make iframe preview as tall as possible to view more of the website */
+.profile-card iframe {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  margin: 16px auto;
+  height: 600px;
+  display: block;
+}
+
+/* Add a hover effect to the iframe */
+.profile-card iframe:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
