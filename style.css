@@ -97,7 +97,7 @@ p {
   filter: invert(1);
 }
 
-/* Make iframe preview as tall as possible to view more of the website */
+/* Make iframe preview show as much of the site as possible */
 .profile-card iframe {
   width: 100%;
   max-width: 100%;
@@ -105,8 +105,10 @@ p {
   border-radius: 12px;
   border: 1px solid #ccc;
   margin: 16px auto;
-  height: 600px;
   display: block;
+  height: 800px; /* Increase height to show more of the site */
+  min-height: 300px;
+  /* Remove aspect-ratio, transform, and scaling */
 }
 
 /* Add a hover effect to the iframe */
